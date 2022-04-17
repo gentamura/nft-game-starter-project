@@ -64,6 +64,8 @@ const SelectCharacter = ({ setCharacterNFT }) => {
           transformCharacterData(characterData)
         );
 
+        console.log('characters', characters);
+
         // ミント可能なすべてのNFTキャラクターの状態を設定します。
         setCharacters(characters);
       } catch (error) {
